@@ -23,5 +23,81 @@
         <line x1="4" y1="4" x2="296" y2="296" stroke="goldenrod" stroke-width="4"/>
         <line x1="296" y1="4" x2="4" y2="296" stroke="goldenrod" stroke-width="4"/>
     </svg>
+    <svg class="svg5" width="300" height="300" viewBox="0 0 300 300">
+        <polyline points="10,10 10,50 60,90 60,130 35,140 10,130 10,90 60,50 60,10 35,0 10,10" fill="transparent" stroke="palevioletred" stroke-width="4"/>
+    </svg>
+    <svg width="60" height="145" viewBox="0 0 60 145" class="ferry-wand">
+        <line class="stick" x1="30" y1="35" x2="30" y2="145" stroke="#818ccf" stroke-width="4"/>
+        <polygon class="star" points="0,20 20,20 30,0 40,20 60,20 40,35 60,60 30,45 0,60 20,35 " fill="#b6e2ff"/>
+      </svg>
+      <svg width="60" height="145" viewBox="0 0 60 145" class="ferry-wand2">
+        <line x1="30" y1="35" x2="30" y2="145" stroke="#818ccf" stroke-width="4"/>
+        <polygon class="star2" points="0,20 20,20 30,0 40,20 60,20 40,35 60,60 30,45 0,60 20,35 " fill="#b6e2ff"/>
+        <g class="magic">
+          <circle class="bubble" cx="4" cy="30" r="4" fill="#ED6E46" />
+          <circle class="bubble" cx="30" cy="4" r="4" fill="#ED6E46" />
+          <circle class="bubble" cx="56" cy="30" r="4" fill="#ED6E46" />
+          <circle class="bubble" cx="30" cy="56" r="4" fill="#ED6E46" />
+        </g>
+      </svg>
+      <!--Grouping Elements-->
+      <svg class="svg6" width="300" height="300" viewBox="0 0 300 300">
+        <rect width="200" height="200" x="0" y="0" fill="olive" rx="10"/>
+        <g class="dots">
+            <circle r="30" cx="50" cy="50" fill="white"/>
+            <circle r="30" cx="150" cy="50" fill="white"/>
+            <circle r="30" cx="50" cy="150" fill="white"/>
+            <circle r="30" cx="150" cy="150" fill="white"/>
+        </g>
+      </svg>
+      <svg width="60" height="60" viewBox="0 0 60 60">
+        <g id="bubbles">
+          <circle class="bubble" cx="4" cy="30" r="4" fill="#ED6E46" />
+          <circle class="bubble" cx="30" cy="4" r="4" fill="#ED6E46" />
+          <circle class="bubble" cx="56" cy="30" r="4" fill="#ED6E46" />
+          <circle class="bubble" cx="30" cy="56" r="4" fill="#ED6E46" />
+        </g>
+        <use xlink:href="#bubbles" class="dup-bubbles" />
+      </svg>
+      <svg width="300" height="200" viewBox="0 0 300 200">
+        <defs>
+          <rect id="brick" width="200" height="100" fill="#CFBEE1"/>
+          <circle id="ball" r="50" fill="#8CC9BB"/>
+        </defs>
+        <use xlink:href="#brick"/>
+        <use xlink:href="#ball" x="200" y="50"/>
+        <use xlink:href="#brick" x="50" y="100"/>
+        <use xlink:href="#ball" x="50" y="150"/>
+      </svg>
+      <svg width="300" height="100" viewBox="0 0 300 100">
+        <text x="0" y="100" fill="tomato">PIZZA</text>
+      </svg>
+      <svg width="250" height="100" viewBox="0 0 250 100">
+        <defs>
+          <linearGradient id="mygradient">
+            <stop offset="0%" stop-color="#ff69eb"/>
+            <stop offset="100%" stop-color="#ffdc5e"/>
+          </linearGradient>
+        </defs>
+        <rect width="100" height="100" fill="url(#mygradient)"/>
+        <text x="100" y="50" fill="url(#mygradient)" font-size="2rem">Colourful</text>
+      </svg>
+      <svg width="600" height="220" viewBox="0 0 600 220">
+        <defs>
+          <pattern id="dots" x="10" y="10" width="10" height="10" patternUnits="userSpaceOnUse">
+            <circle cx="5" cy="5" r="5" fill="#e59e91" />
+          </pattern>
+        </defs>
+        <rect x="10" y="10" width="200" height="200" fill="url(#dots)" />
+        <text x="210" y="210" fill="url(#dots)" font-size="8rem">DOTS</text>
+      </svg>
+      <svg width="600" height="220" viewBox="0 0 600 220">
+        <defs>
+          <pattern width="300" height="300" id="pizza" patternUnits="userSpaceOnUse">
+            <image width="300" xlink:href="/images/svg-mask-pizza.jpg"/>
+          </pattern>
+        </defs>
+        <text x="0" y="100" fill="url(#pizza)" style="font-size:6rem;font-weight:bold;">PIZZA</text>
+      </svg>
 </body>
 </html>
