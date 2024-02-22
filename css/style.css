@@ -20,35 +20,9 @@
 .svg5{
     background-color:blueviolet;
 }
-.stick{
-    stroke: lightgrey;
-}
-.ferry-wand{
-    background-color:palegoldenrod;
-}
-.ferry-wand:hover .star{
-    fill: yellow;
-}
-.magic{
-    transition: transform 4s ease;
-    transform-origin: 30px 30px;
-}
-.ferry-wand2{
-    background-color:azure;
-}
-.ferry-wand2:hover .magic{
-    transform: rotate(3turn);
-}
 .svg6{
     background-color:lightskyblue;
 }
-.dots{
-    transition:transform 2s;
+.svg7{
+    background-color:palegoldenrod;
 }
-.svg6:hover .dots{
-    transform:translateX(100%);
-}
-.dup-bubbles{
-    transform-origin: 30px 30px;
-    transform: rotate(45deg);
-  }
