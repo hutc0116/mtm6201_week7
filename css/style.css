@@ -2,3 +2,18 @@
     margin-top:5%;
     margin-left:5%;
 }
+.svg1{
+    background-color:lightblue;
+}
+.svg2{
+    background-color:lightcoral;
+}
+.svg2 circle:hover{
+    fill:white;
+}
+.svg3{
+    background-color:lightgray;
+}
+.svg4{
+    background-color:lightyellow;
+}
