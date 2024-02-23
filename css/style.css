@@ -23,6 +23,12 @@
 .svg6{
     background-color:lightskyblue;
 }
+.dots{
+    transition:transform 2s;
+}
+.svg6:hover .dots{
+    transform:translateX(100%);
+}
 .svg7{
     background-color:palegoldenrod;
 }
